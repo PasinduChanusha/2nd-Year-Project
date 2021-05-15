@@ -1,0 +1,126 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+    font-size: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.titular {
+    display: block;
+    /* font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif; */
+    line-height: 60px;
+    margin: 0;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.button {
+    display: block;
+    width: 175px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 5px;
+    transition: background .3s;
+}
+
+.button:hover {
+    text-decoration: none;
+}
+.main-part {
+    font-family: "Segoe UI Light","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+    width: 1050px;
+    height: 750px;
+    margin: 6em auto;
+    background-color: rgb(231, 208, 208);
+    border-radius: 10px;
+
+}
+.part {
+    float: left;
+    width: 300px;
+}
+
+.block {
+    margin-bottom: 25px;
+    background: #F8F9F9;
+    border-radius: 5px;
+}
+.menu-box {
+    height: 400px;
+}
+.menu-box .titular {
+    background: #11a8ab;
+}
+.menu-box-menu .icon {
+    display: inline-block;
+    vertical-align: top;
+    width: 28px;
+    margin-left: 20px;
+    margin-right: 15px;
+}
+.menu-box-menu li {
+    height: 60px;
+    position: relative;
+}
+
+.menu-box-tab {
+    line-height: 60px;
+    display: block;
+color: #000;
+    border-bottom: 1px solid #1f253d;
+    -webkit-transition: background .2s;
+    transition: background .2s;
+    font-size: 22px;
+}
+
+.menu-box-tab:hover {
+    background: #DFC291 ;
+    border-top: 1px solid #1f253d;
+    text-decoration: none;
+}
+
+.middle-part {
+    margin: 0 25px;
+}
+
+.add-button .icon {
+    float: right;
+    line-height: 18px;
+    width: 23px;
+    border: 2px solid;
+    border-radius: 100%;
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.add-button .icon:hover {
+    color: #e64c65;
+    border-color: #e64c65;
+}
+
+.user-name {
+    margin: 25px 0 16px;
+    text-align: center;
+}
+.sign-in.button {
+    background: #db75014f;
+    margin: 10px auto;
+}
+
+.sign-in.button:hover {
+    background: #E7C68F ;
+}
+
